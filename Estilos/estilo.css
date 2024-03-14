@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+header{
+    background-color:#004aad ;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 20px;
+}
+nav a{
+    display:inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px; 
+}
+nav a:hover{
+    background-color: rgb(17,20,35);
+    color: #fff;
+}
+.encabezado{
+    background-image: url('../Imagenes/Encabezado.jpg');
+    height: 470px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.encabezado-img p{
+    font-size: 20px;
+}
+.encabezado-img h1{
+    font-size: 50px;
+    padding: 20px 0;
+}
+

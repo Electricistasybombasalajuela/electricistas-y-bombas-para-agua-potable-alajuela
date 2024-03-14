@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+.custom-text {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 2;
+    font-family: Arial;
+    color: black;
+  }
+  .custom-text p {
+    margin-bottom: 10px;
+  }
+  .custom-text ul {
+    padding-left: 20px;
+  } 
+  .custom-text li {
+    margin-bottom: 5px;
+  }
+  
+
+h2{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2rem;
+}
+.slider-frame{
+    width: 530;
+    height: 720;
+    margin: 50px auto 0;
+    overflow: hidden;
+    background-color: black;
+    animation: slide 10s infinite alternate ease-in-out;
+}
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+.slider-frameu li{
+    list-style: none;
+    width: 100%;
+}
+.slider-frame img{
+    width: 100%;
+}
+@keyframes slide {
+    0% {margin-left: 0%;}
+    45% {margin-left: -50%;}
+
+    50% {margin-left: -100%;}
+    95% {margin-left: -100%;}
+} 
