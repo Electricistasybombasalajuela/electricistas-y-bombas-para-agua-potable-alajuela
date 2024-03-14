@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #004aad;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.logo img{
+    width: 125px;
+}
+
+.col1{
+    background-color: #004aad(141, 0, 71);
+    width: 350px;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+}
+.col1 h1{
+    margin-bottom: 20px;
+}
+.col1 p{
+    margin-bottom: 5px;
+}
+
